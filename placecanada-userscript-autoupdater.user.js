@@ -1,21 +1,21 @@
 // ==UserScript==
-// @name         PlaceNL Userscript (Autoupdater)
-// @namespace    https://github.com/PlaceNL/Userscript
+// @name         PlaceCanada Userscript (Autoupdater)
+// @namespace    https://github.com/Ategon/Userscript
 // @version      0.0.2
 // @description  The easiest way to run our automated placer and keep it up to date, right from your browser
-// @author       PlaceNL
+// @author       PlaceCanada
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
 // @connect      reddit.com
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/Ategon/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js
-// @downloadURL  https://github.com/Ategon/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js
+// @updateURL    https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript-autoupdater.user.js
+// @downloadURL  https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript-autoupdater.user.js
 // @grant        GM.xmlHttpRequest
 // @connect      github.com
 // @connect      objects.githubusercontent.com
 // ==/UserScript==
 
-const SCRIPT_LOCATION = 'https://github.com/Ategon/Userscript/releases/download/latest/placenl-userscript.user.js';
+const SCRIPT_LOCATION = 'https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript.user.js';
 const UPDATE_CHECK_INTERVAL = 10 * 60 * 1000;
 
 (function () {

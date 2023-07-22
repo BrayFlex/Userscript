@@ -6,9 +6,9 @@ import {lang} from './lang/language.js';
 
 const client = {
     ws: new SocketClient(),
-    orderReference: createCanvas('placenl-userscript-order-reference'),
-    orderPriority: createCanvas('placenl-userscript-order-priority'),
-    placeReference: createCanvas('placenl-userscript-place-reference'),
+    orderReference: createCanvas('placecanada-userscript-order-reference'),
+    orderPriority: createCanvas('placecanada-userscript-order-priority'),
+    placeReference: createCanvas('placecanada-userscript-place-reference'),
     canvasPlacer: new CanvasPlacer()
 };
 

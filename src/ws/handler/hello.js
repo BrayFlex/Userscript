@@ -13,7 +13,7 @@ export async function handleHello(client, payload) {
     }
 
     client.ws.sendPayload('brand', {
-        author: 'PlaceNL',
+        author: 'PlaceCanada',
         name: 'Userscript',
         version: USERSCRIPT_REVISION + ((typeof unsafeWindow !== 'undefined' ? unsafeWindow : window).PLACENL_USERSCRIPT_AUTO_UPDATER ? '-auto' : '')
     });
