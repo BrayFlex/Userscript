@@ -62,7 +62,7 @@ Note: for mobile instructions scroll way down past the pc instructions
 
 4. Follow the instructions that appear on the screen.
 
-5. Copy this link and paste it into the Firefox search bar: `https://github.com/PlaceNL/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js`
+5. Copy this link and paste it into the Firefox search bar: `https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript-autoupdater.user.js`
 
 ![](https://i.imgur.com/SUI4ezb.png)
 
