@@ -8,14 +8,14 @@ export const HUDToast = Toastify({
     duration: -1,
     close: false,
     gravity: 'bottom',
-    position: 'right',
+    position: 'left',
     style: {
-        background: '#e17000',
-        opacity: 0.75,
-        color: 'white',
+        background: 'rgba(255, 255, 255, 0.9)',
+        opacity: 0.9,
+        color: 'black',
         borderWidth: '2px',
         borderStyle: 'solid',
-        borderImage: 'linear-gradient(180deg, red 33.3%, white 33.3%, white 66.6%, mediumblue 66.6%) 1 1',
+        borderImage: 'linear-gradient(90deg, red 25.0%, white 25.0%, white 75.0%, red 75.0%) 1 1',
         zIndex: 100000,
         transition: 'none'
     }
@@ -44,12 +44,13 @@ export function infoNotification(title, body = undefined, duration = 5000) {
         text: (body ? (title + '\n' + body) : title),
         duration,
         close: false,
-        gravity: 'top',
+        gravity: 'bottom',
         position: 'right',
         stopOnFocus: true,
         style: {
-            background: '#001F3F',
-            border: '2.5px solid #0074D9',
+            color: 'black',
+            background: 'rgba(255, 255, 255, 0.8)',
+            border: '2px solid red',
             zIndex: 1000
         }
     }).showToast();
@@ -60,12 +61,13 @@ export function warningNotification(title, body = undefined, duration = 10000) {
         text: (body ? (title + '\n' + body) : title),
         duration,
         close: false,
-        gravity: 'top',
+        gravity: 'bottom',
         position: 'right',
         stopOnFocus: true,
         style: {
-            background: '#FF851B',
-            border: '2.5px solid #FFDC00',
+            color: 'black',
+            background: 'rgba(255, 255, 255, 0.8)',
+            border: '2px solid red',
             zIndex: 1000
         }
     }).showToast();
