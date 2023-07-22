@@ -19,7 +19,7 @@ Note: for mobile instructions scroll way down past the pc instructions
 ### 2. Install Autoplacer
 - If Violentmonkey (or any other script manager) is installed:
 - Click one of the two below:
-    - [Auto-updating version](https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript-autoupdater.user.js)
+    - [Auto-updating version](https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript-autoupdater.user.js) < recommended
     - [Manual update version](https://github.com/Ategon/Userscript/releases/download/latest/placecanada-userscript.user.js)
     - If you don't want to have to worry about manually updating the userscript every time we make a change, pick the auto-updating version. When using the manual update version, please regularly check for updates.
 - Click on confirm installation
