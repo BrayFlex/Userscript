@@ -15,7 +15,8 @@ export const HUDToast = Toastify({
         color: 'black',
         borderWidth: '2px',
         borderStyle: 'solid',
-        borderImage: 'linear-gradient(90deg, red 25.0%, white 25.0%, white 75.0%, red 75.0%) 1 1',
+        borderColor: 'black',
+        boxShadow: '8px 8px 0px rgba(0, 0, 0, 0.8)',
         zIndex: 100000,
         transition: 'none'
     }
@@ -48,9 +49,13 @@ export function infoNotification(title, body = undefined, duration = 5000) {
         position: 'right',
         stopOnFocus: true,
         style: {
-            color: 'black',
-            background: 'rgba(255, 255, 255, 0.8)',
-            border: '2px solid red',
+            background: 'rgba(240, 1, 1, 0.9)',
+            opacity: 1.0,
+            color: 'white',
+            borderWidth: '2.5px',
+            borderStyle: 'solid',
+            borderColor: 'black',
+            boxShadow: '8px 8px 0px rgba(0, 0, 0, 0.8)',
             zIndex: 1000
         }
     }).showToast();
@@ -65,10 +70,13 @@ export function warningNotification(title, body = undefined, duration = 10000) {
         position: 'right',
         stopOnFocus: true,
         style: {
-            color: 'black',
-            background: 'rgba(255, 255, 255, 0.8)',
-            border: '2px solid red',
-            zIndex: 1000
+            background: 'rgba(240, 1, 1, 0.9)',
+            opacity: 1.0,
+            color: 'white',
+            borderWidth: '2.5px',
+            borderStyle: 'solid',
+            borderColor: 'black',
+            boxShadow: '8px 8px 0px rgba(0, 0, 0, 0.8)',
         }
     }).showToast();
 }
