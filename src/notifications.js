@@ -10,13 +10,12 @@ export const HUDToast = Toastify({
     gravity: 'bottom',
     position: 'left',
     style: {
-        background: 'rgba(240, 1, 1, 0.9)',
-        opacity: 1.0,
-        color: 'white',
-        borderWidth: '2.5px',
+        background: 'rgba(255, 255, 255, 0.9)',
+        opacity: 0.9,
+        color: 'black',
+        borderWidth: '2px',
         borderStyle: 'solid',
-        borderColor: 'black',
-        boxShadow: '10, 10, 0, rgba(0, 0, 0, 0.8)',
+        borderImage: 'linear-gradient(90deg, red 25.0%, white 25.0%, white 75.0%, red 75.0%) 1 1',
         zIndex: 100000,
         transition: 'none'
     }
@@ -48,17 +47,10 @@ export function infoNotification(title, body = undefined, duration = 5000) {
         gravity: 'bottom',
         position: 'right',
         stopOnFocus: true,
-        offset: {
-            x: 140,
-          },
         style: {
-            background: 'rgba(240, 1, 1, 0.9)',
-            opacity: 1.0,
-            color: 'white',
-            borderWidth: '2.5px',
-            borderStyle: 'solid',
-            borderColor: 'black',
-            boxShadow: '10, 10, 0, rgba(0, 0, 0, 0.8)',
+            color: 'black',
+            background: 'rgba(255, 255, 255, 0.8)',
+            border: '2px solid red',
             zIndex: 1000
         }
     }).showToast();
@@ -72,17 +64,10 @@ export function warningNotification(title, body = undefined, duration = 10000) {
         gravity: 'bottom',
         position: 'right',
         stopOnFocus: true,
-        offset: {
-            x: 140,
-          },
         style: {
-            background: 'rgba(240, 1, 1, 0.9)',
-            opacity: 1.0,
-            color: 'white',
-            borderWidth: '2.5px',
-            borderStyle: 'solid',
-            borderColor: 'black',
-            boxShadow: '10, 10, 0, rgba(0, 0, 0, 0.8)',
+            color: 'black',
+            background: 'rgba(255, 255, 255, 0.8)',
+            border: '2px solid red',
             zIndex: 1000
         }
     }).showToast();
