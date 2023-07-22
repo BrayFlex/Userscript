@@ -3,6 +3,7 @@
 The easiest way to run our automated placer, right from your browser!
 
 ## Instructions
+Note: for mobile instructions scroll way down past the pc instructions
 
 ### 1. Install ViolentMonkey
 - Go to https://violentmonkey.github.io/get-it/
@@ -45,5 +46,41 @@ The easiest way to run our automated placer, right from your browser!
 ![](https://i.imgur.com/d8A8xsX.png)
 
 - Violentmonkey is now off
+
+## MOBILE INSTRUCTIONS
+1. Download the firefox mobile app
+
+![](https://i.imgur.com/0YmM6FT.png)
+
+3. Click on the three dots > add-ons.
+
+![](https://i.imgur.com/zCxMyvr.png)
+
+3.Scroll down and install "Tampermonkey"
+
+![](https://i.imgur.com/HX9UCio.png)
+
+4. Follow the instructions that appear on the screen.
+5. 
+6. Copy this link and paste it into the Firefox search bar: `https://github.com/PlaceNL/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js`
+
+![](https://i.imgur.com/SUI4ezb.png)
+
+Install the script
+![](https://i.imgur.com/sAVGZqY.jpg)
+
+6. Go to reddit.com and log in using Firefox.
+7. 
+8. Click on the three dots and activate "desktop site".
+
+![](https://i.imgur.com/SrcdhH8.png)
+
+Open this link through the search bar: https://reddit.com/r/place/?screenmode=fullscreen
+
+9. Click "allow all" for any pop-ups that appear.
+   
+10. The script should now be visible:
+
+![](https://i.imgur.com/XPCGoe5.png)
 
 Tutorial and script forked from PlaceNL <3
