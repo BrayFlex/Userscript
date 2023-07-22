@@ -107,7 +107,7 @@ export function getCanvasURLS(client, canvases) {
 
 function getProxiedURL(garlicURL) {
     const url = new URL(garlicURL);
-    return `https://garlic-proxy.placecanada.ca/${url.pathname.replace(/^\/media\//, '')}?bust=${Date.now()}`;
+    return `https://garlic-proxy.placenl.nl/${url.pathname.replace(/^\/media\//, '')}?bust=${Date.now()}`;
 }
 
 export async function getPlaceCooldown(client) {
