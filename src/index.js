@@ -9,7 +9,8 @@ const client = {
     orderReference: createCanvas('placecanada-userscript-order-reference'),
     orderPriority: createCanvas('placecanada-userscript-order-priority'),
     placeReference: createCanvas('placecanada-userscript-place-reference'),
-    canvasPlacer: new CanvasPlacer()
+    canvasPlacer: new CanvasPlacer(),
+    completion: undefined
 };
 
 createToastifyStyle();
