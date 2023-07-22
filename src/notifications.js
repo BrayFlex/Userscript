@@ -10,7 +10,7 @@ export const HUDToast = Toastify({
     gravity: 'bottom',
     position: 'left',
     style: {
-        background: 'rgba(266, 255, 255, 0.9)',
+        background: 'rgba(255, 255, 255, 0.9)',
         opacity: 0.9,
         color: 'black',
         borderWidth: '2px',
