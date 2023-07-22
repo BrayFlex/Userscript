@@ -5,6 +5,7 @@ import {infoNotification, setHUDBody} from './notifications.js';
 import {lang} from './lang/language.js';
 
 const PALETTE = ['#6D001A', '#BE0039', '#FF4500', '#FFA800', '#FFD635', '#FFF8B8', '#00A368', '#00CC78', '#7EED56', '#00756F', '#009EAA', '#00CCC0', '#2450A4', '#3690EA', '#51E9F4', '#493AC1', '#6A5CFF', '#94B3FF', '#811E9F', '#B44AC0', '#E4ABFF', '#DE107F', '#FF3881', '#FF99AA', '#6D482F', '#9C6926', '#FFB470', '#000000', '#515252', '#898D90', '#D4D7D9', '#FFFFFF'];
+const COLOURNAME = ['Dark Red', 'Red', 'Orange', 'Light Orange', 'Yellow', 'Pale Yellow', 'Dark Green', 'Green', 'Lime', 'Dark Teal', 'Teal', 'Blue Green', 'Dark Blue', 'Blue', 'Cyan', 'Dark Purple', 'Purple', 'Pale Blue', 'Dark Purple', 'Magenta', 'Light Purple', 'Fuchsia', 'Hot Pink', 'Salmon', 'Dark Brown', 'Brown', 'Peach', 'Black', 'Dark Grey', 'Light Grey', 'White'];  
 
 export class CanvasPlacer {
 
@@ -79,7 +80,7 @@ export class CanvasPlacer {
                         let displayY = canvasY - 1000;
                         canvasX %= 1000;
                         canvasY %= 1000;
-                        infoNotification(lang().TOAST_PLACING_PIXEL_AT.replace('{x}', displayX).replace('{y}', displayY));
+                        infoNotification(COLOURNAME.at(pi) + ' ' + lang().TOAST_PLACING_PIXEL_AT.replace('{x}', displayX).replace('{y}', displayY));
 
                         let delay = await placePixel(client, canvasX, canvasY, pi, canvas);
                         if (typeof delay === 'number') {
