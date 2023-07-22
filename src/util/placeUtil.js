@@ -107,7 +107,7 @@ export function getCanvasURLS(client, canvases) {
 
 function getProxiedURL(garlicURL) {
     const url = new URL(garlicURL);
-    return `https://garlic-proxy.placenl.nl/${url.pathname.replace(/^\/media\//, '')}?bust=${Date.now()}`;
+    return `https://garlic-proxy.placecanada.ca/${url.pathname.replace(/^\/media\//, '')}?bust=${Date.now()}`;
 }
 
 export async function getPlaceCooldown(client) {
@@ -154,7 +154,7 @@ export async function getPlaceCooldown(client) {
         return undefined;
     }
 
-    let ts = data.data.act.data[0].data.nextAvailablePixelTimestamp
+    let ts = data.data.act.data[0].data.nextAvailablePixelTimestamp;
 
     return !ts ? 1 : ts;
 }
