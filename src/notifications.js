@@ -10,10 +10,10 @@ export const HUDToast = Toastify({
     gravity: 'bottom',
     position: 'left',
     style: {
-        background: 'rgba(240, 1, 1, 0.9)',
-        opacity: 1.0,
-        color: 'white',
-        borderWidth: '2.5px',
+        background: 'rgba(255, 255, 255, 0.9)',
+        opacity: 0.9,
+        color: 'black',
+        borderWidth: '2px',
         borderStyle: 'solid',
         borderColor: 'black',
         boxShadow: '8px 8px 0px rgba(0, 0, 0, 0.8)',
@@ -48,9 +48,6 @@ export function infoNotification(title, body = undefined, duration = 5000) {
         gravity: 'bottom',
         position: 'right',
         stopOnFocus: true,
-        offset: {
-            x: 140,
-          },
         style: {
             background: 'rgba(240, 1, 1, 0.9)',
             opacity: 1.0,
@@ -72,9 +69,6 @@ export function warningNotification(title, body = undefined, duration = 10000) {
         gravity: 'bottom',
         position: 'right',
         stopOnFocus: true,
-        offset: {
-            x: 140,
-          },
         style: {
             background: 'rgba(240, 1, 1, 0.9)',
             opacity: 1.0,
@@ -83,7 +77,6 @@ export function warningNotification(title, body = undefined, duration = 10000) {
             borderStyle: 'solid',
             borderColor: 'black',
             boxShadow: '8px 8px 0px rgba(0, 0, 0, 0.8)',
-            zIndex: 1000
         }
     }).showToast();
 }
