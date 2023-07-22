@@ -61,17 +61,18 @@ Note: for mobile instructions scroll way down past the pc instructions
 ![](https://i.imgur.com/HX9UCio.png)
 
 4. Follow the instructions that appear on the screen.
-5. 
-6. Copy this link and paste it into the Firefox search bar: `https://github.com/PlaceNL/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js`
+
+5. Copy this link and paste it into the Firefox search bar: `https://github.com/PlaceNL/Userscript/releases/download/latest/placenl-userscript-autoupdater.user.js`
 
 ![](https://i.imgur.com/SUI4ezb.png)
 
 Install the script
+
 ![](https://i.imgur.com/sAVGZqY.jpg)
 
 6. Go to reddit.com and log in using Firefox.
-7. 
-8. Click on the three dots and activate "desktop site".
+
+7. Click on the three dots and activate "desktop site".
 
 ![](https://i.imgur.com/SrcdhH8.png)
 
