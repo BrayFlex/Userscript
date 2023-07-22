@@ -80,7 +80,7 @@ export class CanvasPlacer {
                         let displayY = canvasY - 1000;
                         canvasX %= 1000;
                         canvasY %= 1000;
-                        infoNotification(lang().TOAST_PLACING_PIXEL_AT.replace('{x}', displayX).replace('{y}', displayY));
+                        infoNotification(COLOURNAME.at(pi) + ' ' + lang().TOAST_PLACING_PIXEL_AT.replace('{x}', displayX).replace('{y}', displayY));
 
                         let delay = await placePixel(client, canvasX, canvasY, pi, canvas);
                         if (typeof delay === 'number') {
