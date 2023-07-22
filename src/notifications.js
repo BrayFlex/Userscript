@@ -49,7 +49,7 @@ export function infoNotification(title, body = undefined, duration = 5000) {
         stopOnFocus: true,
         style: {
             color: 'black',
-            background: 'rgba(266, 255, 255, 0.8)',
+            background: 'rgba(255, 255, 255, 0.8)',
             border: '2px solid red',
             zIndex: 1000
         }
@@ -66,7 +66,7 @@ export function warningNotification(title, body = undefined, duration = 10000) {
         stopOnFocus: true,
         style: {
             color: 'black',
-            background: 'rgba(266, 255, 255, 0.8)',
+            background: 'rgba(255, 255, 255, 0.8)',
             border: '2px solid red',
             zIndex: 1000
         }
